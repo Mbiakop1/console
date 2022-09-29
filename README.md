@@ -112,9 +112,9 @@ mc admin policy add myminio/ consoleAdmin admin.json
 mc admin policy set myminio consoleAdmin user=console
 ```
 
-> NOTE: Additionally, you can create policies to limit the privileges for other `console` users, for example, if you want the user to only have access to dashboard, buckets, notifications and watch page, the policy should look like this:
+> NOTE: Additionally, you can create policies to limit the privileges for other `console` users, for example, if you want the user to only have access to the dashboard, buckets, notifications and watch page, the policy should look like this:
 
-```json
+```Json
 {
 	"Version": "2012-10-17",
 	"Statement": [{
